@@ -1,0 +1,16 @@
+[
+    {
+      "name": "Car Rental",
+      "image": "CarRental.png",
+      "bgcolor": "#000",
+      "technologies": [".NET", "jQuery", "Bootstrap"],
+      "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout..."
+    },
+    {
+      "name": "Air Pollution App",
+      "image": "Pollution.png",
+      "bgcolor": "#9e2d01",
+      "technologies": ["JavaScript", "ApexCharts", "Leaflet"],
+      "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout..."
+    }
+]
