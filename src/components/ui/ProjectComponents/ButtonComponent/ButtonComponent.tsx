@@ -1,12 +1,4 @@
 
-import { useRef } from 'react';
-import {
-  Typography,
-  CardContent,
-  Chip,
-  Box,
-} from "@mui/material";
-
 const CLIP = `polygon(
   0px 8px, 4px 8px, 4px 4px, 8px 4px,
   8px 0px, calc(100% - 8px) 0px,

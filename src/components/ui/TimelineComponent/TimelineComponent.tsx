@@ -9,19 +9,15 @@ import {
 
 import {
   Typography,
-  Card,
-  CardContent,
-  Chip,
   Box,
 } from "@mui/material";
 
-import { useRef } from 'react';
-import { useInView } from 'framer-motion';
+// import { useRef } from 'react';
+// import { useInView } from 'framer-motion';
 
 // import SpotlightBorder from "../GlowCard/GlowCard"
 import SpotlightBorder from "../GlowCard/Glow8bitCard"
 
-import { TextScramble } from '../../../../components/motion-primitives/text-scramble';
 import ScrumbleHeading from "../ScrumbleHeading/ScrumbleHeading";
 
 
@@ -83,8 +79,8 @@ const CLIP = `polygon(
   2px calc(100% - 8px), 0px calc(100% - 8px)
 )`;
 export default function WorkExperience() {
-  const ref = useRef(null);
-  const isInView = useInView(ref, { once: true, margin: "-50px" });
+  // const ref = useRef(null);
+  // const isInView = useInView(ref, { once: true, margin: "-50px" });
 
   return (
   

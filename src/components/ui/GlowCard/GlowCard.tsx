@@ -1,10 +1,9 @@
 "use client"
 
-import { useEffect, useRef, type ReactNode } from 'react';
+import { useRef } from 'react';
 
 import {
   Typography,
-  Card,
   CardContent,
   Chip,
   Box,

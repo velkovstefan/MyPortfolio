@@ -1,4 +1,3 @@
-import React from 'react'
 import { useRef } from 'react';
 import { useInView } from 'framer-motion';
 import { TextScramble } from '../../../../components/motion-primitives/text-scramble';
