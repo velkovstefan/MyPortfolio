@@ -31,7 +31,7 @@ function App() {
 
   return (
     <>
-      {/* 1. Add 'isolate' to the wrapper to prevent negative z-index from slipping behind the black webpage background */}
+    
 <div className="relative w-full flex-col gap-6 overflow-hidden bg-black/[0.96] antialiased md:items-center md:justify-center min-h-[100vh] isolate">
   
   {/* 2. Add 'z-0' or 'z-[-1]' here to force the grid layout completely beneath your text elements */}
