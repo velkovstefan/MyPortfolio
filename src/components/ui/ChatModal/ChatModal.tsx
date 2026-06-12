@@ -9,14 +9,8 @@
 //   MorphingDialogDescription,
 //   MorphingDialogContainer,
 // } from '../../motion-primitives/morphing-dialog';
-import { PlusIcon, XIcon } from 'lucide-react';
-import { TerminalInput } from '../TerminalInputComponent/TerminalInputComponent';
-import Terminal, { ColorMode, TerminalOutput } from 'react-terminal-ui';
 
 import {
-  Typography,
-  CardContent,
-  Chip,
   Box,
 } from "@mui/material";
 

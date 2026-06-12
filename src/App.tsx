@@ -4,7 +4,6 @@ import { Spotlight } from "./components/ui/spotlight";
 import  TimelineComponent from "./components/ui/TimelineComponent/TimelineComponent"
 import AboutMe from './components/ui/AboutMe/AboutMe'
 
-import Projects from './components/ui/Projects/Projects'
 import './App.css'
 import { ChatModal } from './components/ui/ChatModal/ChatModal';
 import Logo from './components/ui/Logo/Logo';
@@ -14,8 +13,7 @@ import ProjectGrid from './components/ui/ProjectComponents/ProjectGrid/ProjectGr
 
 
 function App() {
-  const [count, setCount] = useState(0)
-  const [isFocused, setIsFocused] = useState(false);
+ 
 
    const ref = useRef<HTMLDivElement>(null);
   const [isSticky, setIsSticky] = useState(false);

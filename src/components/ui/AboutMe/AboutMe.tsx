@@ -4,7 +4,6 @@ import { useRef } from 'react';
 import {
   Typography,
   CardContent,
-  Chip,
   Box,
 } from "@mui/material";
 
