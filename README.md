@@ -23,5 +23,6 @@ Welcome to the repository for my personal portfolio website! This project showca
 * **Styling:** Tailwind CSS *(or your chosen styling tool)*
 * **CI/CD & Hosting:** GitHub Actions & GitHub Pages
 
+
 ---
 
