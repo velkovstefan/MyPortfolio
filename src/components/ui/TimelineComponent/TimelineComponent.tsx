@@ -42,7 +42,7 @@ const education = [
     role: "B.S. Computer Science",
     company: "Ss. Cyril and Methodius University",
     location: "Skopje",
-    period: "Jan 2023 – Present",
+    period: "Oct 2023 – Present",
     current: true,
     coursework: ["Data Structures & Algorithms", "Operating Systems", "Data Science", "Advanced Programming"],
   },
