@@ -93,13 +93,13 @@ export default function SpotlightBorder() {
                     variant="body2"
                     sx={{ fontWeight: 500, color: COLORS.accent,justifySelf:'center', alignSelf:'center' }}
                 >
-                A · B
+                Computer Science · Software Engineer
                 </Typography>
                 <Typography
                     variant="body2"
                     sx={{ fontWeight: 500, color: COLORS.smokeText, textAlign:"justify" }}
                 >
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                Computer Science student at FINKI, Ss. Cyril and Methodius University, with hands-on experience in full-stack development, machine learning, and AI research.  Contributor to Vezilka, a national AI project focused on fine-tuning and evaluating large language models for the Macedonian language. Capable of building from start to production-ready applications using modern technologies and CI/CD pipelines. Passionate about building reliable, high-performance software at scale.
                 </Typography>
             </Box>
 

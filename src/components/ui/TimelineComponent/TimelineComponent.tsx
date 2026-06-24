@@ -37,35 +37,16 @@ const COLORS = {
   connector: "rgba(245,158,11,0.25)",
 };
 
-const experiences = [
+const education = [
   {
-    role: "Senior Frontend Engineer",
-    company: "Google",
-    location: "Mountain View, CA",
-    period: "Jan 2022 – Present",
+    role: "B.S. Computer Science",
+    company: "Ss. Cyril and Methodius University",
+    location: "Skopje",
+    period: "Jan 2023 – Present",
     current: true,
-    description:
-      "Led migration of core search UI to React 18, reduced bundle size by 40%, and mentored 4 junior engineers across two teams.",
-    skills: ["React", "TypeScript", "GraphQL", "Web Perf"],
+    coursework: ["Data Structures & Algorithms", "Operating Systems", "Data Science", "Advanced Programming"],
   },
-  {
-    role: "Frontend Engineer",
-    company: "Meta",
-    location: "Remote",
-    period: "Mar 2019 – Dec 2021",
-    description:
-      "Built React components for Ads Manager. Worked on real-time performance dashboards serving 2M+ advertisers.",
-    skills: ["React", "Redux", "Jest", "REST APIs"],
-  },
-  {
-    role: "Junior Developer",
-    company: "Startup XYZ",
-    location: "New York, NY",
-    period: "Jun 2017 – Feb 2019",
-    description:
-      "Developed and maintained client-facing features for a SaaS platform. First exposure to agile workflows and CI/CD pipelines.",
-    skills: ["JavaScript", "Vue.js", "CSS", "Git"],
-  },
+
 ];
 const CLIP = `polygon(
   0px 8px, 2px 8px, 2px 2px, 8px 2px,
@@ -83,19 +64,19 @@ export default function WorkExperience() {
   // const isInView = useInView(ref, { once: true, margin: "-50px" });
 
   return (
-  
+
     <Box className="font-kode z-5" sx={{ maxWidth: 800, mx: "auto", py: 4, px: 2 }}>
       {/* <Typography className="z-10 glowTitle" variant="h5" sx={{ fontWeight: 600, color: "#f3f4f6" }} gutterBottom>
         Work Experience
       </Typography> */}
-       
-      <ScrumbleHeading text="Text Scrumble"/>
+
+      <ScrumbleHeading text="Education"/>
       <Typography variant="body2" sx={{ mb: 3, color: "#6b7280" }}>
-        {experiences.length} positions · {experiences[experiences.length - 1].period.split(" ")[0]} – Present
+        {education.length} {education.length==1?'qualification':'qualifications'}
       </Typography>
 
       <Timeline position="right" sx={{ p: 0, m: 0 }}>
-        {experiences.map((exp, index) => (
+        {education.map((exp, index) => (
           <TimelineItem key={index} sx={{ "&:before": { display: "none" } }}>
             <TimelineSeparator>
               <TimelineDot
@@ -114,7 +95,7 @@ export default function WorkExperience() {
                   },
                 }}
               />
-              {index < experiences.length - 1 && (
+              {index < education.length - 1 && (
                 <TimelineConnector sx={{ bgcolor: COLORS.connector }} />
               )}
             </TimelineSeparator>
@@ -126,16 +107,14 @@ export default function WorkExperience() {
                       location: exp.location,
                       period: exp.period,
                       current: true,
-                      description:
-                        "Led migration of core search UI to React 18, reduced bundle size by 40%, and mentored 4 junior engineers across two teams.",
-                      skills: ["React", "TypeScript", "GraphQL", "Web Perf"]
+                      coursework: exp.coursework
                     }}/>
             </TimelineContent>
           </TimelineItem>
         ))}
       </Timeline>
-    
-      
+
+
     </Box>
   );
 }

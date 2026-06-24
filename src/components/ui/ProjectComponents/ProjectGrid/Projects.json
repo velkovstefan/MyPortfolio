@@ -1,16 +1,24 @@
 [
     {
-      "name": "Car Rental",
-      "image": "CarRental.png",
-      "bgcolor": "#000",
-      "technologies": [".NET", "jQuery", "Bootstrap"],
-      "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout..."
+      "name": "GhostSubs",
+      "image": "GhostSubs.png",
+      "bgcolor": "#ff3b3b4D",
+      "technologies": ["FastAPI", "React", "PostgreSQL", "Docker"],
+      "description": "AI-powered bank CSV analyzer, enables users to detect ecurring subscriptions and flags the ones wasting your money Designed a robust CI/CD pipeline using GitHub Actions to automate containerized builds and seamlessly deploy updates to Oracle Cloud Infrastructure"
     },
+  
     {
-      "name": "Air Pollution App",
+      "name": "AirPollution",
       "image": "Pollution.png",
-      "bgcolor": "#9e2d01",
+      "bgcolor": "#9e2d014D",
       "technologies": ["JavaScript", "ApexCharts", "Leaflet"],
-      "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout..."
+      "description": "AirPollution is a web application for visualizing and analyzing air pollution across Skopje in real time, based on data from public sensors (Pulse.eco).Deployed via GitHub Pages with automated CI/CD pipeline using GitHub Actions"
+    },
+      {
+      "name": "CarRental",
+      "image": "CarRental.png",
+      "bgcolor": "#000fff4D",
+      "technologies": [".NET", "jQuery", "Bootstrap"],
+      "description": "Web application that enables easy and straightforward online car rental. The application also offers owners and their administrator's easy maintenance of the cars available for rental."
     }
 ]

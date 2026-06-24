@@ -33,8 +33,7 @@ interface SpotlightBorderProps {
     location: string;
     period: string;
     current: boolean;
-    description: string;
-    skills: string[];
+    coursework: string[];
   };
 }
 
@@ -135,7 +134,7 @@ export default function SpotlightBorder({ obj }: SpotlightBorderProps) {
           </Box>
 
           <Box sx={{ display: "flex", flexWrap: "wrap", gap: 0.75 }}>
-            {obj.skills.map((skill) => (
+            {obj.coursework.map((skill) => (
               <Chip
                 key={skill}
                 label={skill}

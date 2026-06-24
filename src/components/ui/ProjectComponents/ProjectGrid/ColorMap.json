@@ -38,5 +38,6 @@
   "supabase":     { "bg": "#3ECF8E", "fg": "#002a1a" },
   "git":          { "bg": "#F05032", "fg": "#ffffff" },
   "linux":        { "bg": "#FCC624", "fg": "#1a1200" },
-  "electron":     { "bg": "#47848F", "fg": "#ffffff" }
+  "electron":     { "bg": "#47848F", "fg": "#ffffff" },
+  "fastapi":      { "bg": "#059669", "fg": "#ffffff" }
 }

@@ -55,9 +55,9 @@ function App() {
     )}
   </div>
   
-  <div ref={ref} className="relative z-10">   
+  {/* <div ref={ref} className="relative z-10">   
     <ChatModal />
-  </div>
+  </div> */}
   
   {/* Wrap remaining elements in a relative z-10 container if needed */}
   <div className="relative z-10">

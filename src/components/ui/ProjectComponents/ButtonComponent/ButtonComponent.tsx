@@ -35,7 +35,7 @@ export default function ButtonComponent({ image }: { image: string }){
                     style={{ clipPath: CLIP, display:'flex', justifyContent:'center', alignItems:'center'}}
                 >
                     
-                        <img src={`/public/images/${image}`} alt="project logo" style={{
+                        <img src={`public/images/${image}`} alt="project logo" style={{
                             width:"100%"
                         }}/>
 
