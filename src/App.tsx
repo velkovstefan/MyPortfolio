@@ -5,7 +5,6 @@ import  TimelineComponent from "./components/ui/TimelineComponent/TimelineCompon
 import AboutMe from './components/ui/AboutMe/AboutMe'
 
 import './App.css'
-import { ChatModal } from './components/ui/ChatModal/ChatModal';
 import Logo from './components/ui/Logo/Logo';
 import ProjectGrid from './components/ui/ProjectComponents/ProjectGrid/ProjectGrid';
 
@@ -13,7 +12,7 @@ import ProjectGrid from './components/ui/ProjectComponents/ProjectGrid/ProjectGr
 
 
 function App() {
- 
+
 
    const ref = useRef<HTMLDivElement>(null);
   const [isSticky, setIsSticky] = useState(false);
@@ -29,9 +28,9 @@ function App() {
 
   return (
     <>
-    
+
 <div className="relative w-full flex-col gap-6 overflow-hidden bg-black/[0.96] antialiased md:items-center md:justify-center min-h-[100vh] isolate">
-  
+
   {/* 2. Add 'z-0' or 'z-[-1]' here to force the grid layout completely beneath your text elements */}
   <div
     className={cn(
@@ -44,7 +43,7 @@ function App() {
     className="-top-40 left-0 md:-top-20 md:left-60"
     fill="white"
   />
-  
+
   {/* 3. Your content stays clean at z-10 */}
   <div className="relative z-10 mx-auto w-full max-w-xl p-4 pt-20 md:pt-0">
     <Logo/>
@@ -54,11 +53,11 @@ function App() {
       </div>
     )}
   </div>
-  
-  {/* <div ref={ref} className="relative z-10">   
+
+  {/* <div ref={ref} className="relative z-10">
     <ChatModal />
   </div> */}
-  
+
   {/* Wrap remaining elements in a relative z-10 container if needed */}
   <div className="relative z-10">
     <AboutMe/>
@@ -67,17 +66,17 @@ function App() {
   </div>
 </div>
 
-    
 
-{/* 
+
+{/*
       <div className="ticks"></div>
       <section id="spacer">
       <div style={{position:'relative'}}>
         <Projects/>
       </div>
       </section> */}
-      
-      
+
+
     </>
   )
 }

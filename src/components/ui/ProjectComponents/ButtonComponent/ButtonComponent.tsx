@@ -28,16 +28,18 @@ export default function ButtonComponent({ image }: { image: string }){
                     // }}
                     className="pointer-events-none absolute -translate-x-1/2 -translate-y-1/2 w-[124px] h-[124px] blur-3xl opacity-0 group-hover:opacity-80 transition-opacity"
                 />
-        
+
                 {/* Inner card */}
                 <div
                     className="relative p-1 h-full w-full bg-black font-kode "
                     style={{ clipPath: CLIP, display:'flex', justifyContent:'center', alignItems:'center'}}
                 >
-                    
-                        <img src={`public/images/${image}`} alt="project logo" style={{
-                            width:"100%"
-                        }}/>
+
+                        <img
+                        src={`images/${image}`}
+                        alt="project logo"
+                        style={{ width: "100%" }}
+                        />
 
                 </div>
                 </div>
