@@ -65,7 +65,7 @@ export default function WorkExperience() {
 
   return (
 
-    <Box className="font-kode z-5" sx={{ maxWidth: 800, mx: "auto", py: 4, px: 2 }}>
+    <Box className="font-kode z-5 fade-up fade-up-3" sx={{ maxWidth: 800, mx: "auto", py: 4, px: 2 }}>
       {/* <Typography className="z-10 glowTitle" variant="h5" sx={{ fontWeight: 600, color: "#f3f4f6" }} gutterBottom>
         Work Experience
       </Typography> */}

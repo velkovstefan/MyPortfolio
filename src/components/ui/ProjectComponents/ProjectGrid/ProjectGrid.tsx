@@ -59,10 +59,10 @@ export default function ProjectGrid() {
         }
       }} />
 
-      <Box className="flex-column gap-5 font-kode" sx={{ maxWidth: 800, mx: "auto", py: 4, px: 2 }}>
+      <Box className="flex-column gap-5 font-kode fade-up fade-up-4" sx={{ maxWidth: 800, mx: "auto", py: 4, px: 2 }}>
         <ScrumbleHeading text="Projects"/>
         <Typography variant="body2" sx={{ mb: 3, color: "#6b7280" }}>
-                {projectData.length} projects 
+                {projectData.length} projects
         </Typography>
         {projectData.map((proj) => {
           const isActive = activeProject === proj.name
@@ -90,13 +90,13 @@ export default function ProjectGrid() {
                     opacity: .7,
                     zIndex: 10,
                     pointerEvents: "none",
-                    background: `linear-gradient(90deg, 
-                      transparent 0%, 
-                      rgba(255, 255, 255, 0) 40%, 
-                      ${COLORS.accent} 45%, 
-                      #fff 50%, 
-                      ${COLORS.accent} 55%, 
-                      rgba(255, 255, 255, 0) 60%, 
+                    background: `linear-gradient(90deg,
+                      transparent 0%,
+                      rgba(255, 255, 255, 0) 40%,
+                      ${COLORS.accent} 45%,
+                      #fff 50%,
+                      ${COLORS.accent} 55%,
+                      rgba(255, 255, 255, 0) 60%,
                       transparent 100%)`,
                     animation: "atariScan .6s linear forwards",
                   }}
@@ -185,14 +185,14 @@ export default function ProjectGrid() {
               </Box>
 
               <Box
-  
+
                 sx={{
                   // marginTop: "30px",
                   maxHeight: isActive ? "1000px" : "0px",
                   overflow: "hidden",
                   transition: "max-height 0.45s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.35s ease",
                   opacity: isActive ? 1 : 0,
-                  
+
                 }}
               >
                 <Box sx={{

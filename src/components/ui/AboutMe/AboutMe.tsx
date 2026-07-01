@@ -43,7 +43,7 @@ export default function SpotlightBorder() {
 
   return (
 
-    <Box className="font-kode z-5" sx={{ maxWidth: 800, mx: "auto", mb:4, py: 4, px: 2 }}>
+    <Box className="font-kode z-5 fade-up fade-up-2" sx={{ maxWidth: 800, mx: "auto", mb:4, py: 4, px: 2 }}>
 
 
         <div
@@ -103,7 +103,7 @@ export default function SpotlightBorder() {
                 </Typography>
             </Box>
 
-            
+
             </CardContent>
         </div>
         </div>

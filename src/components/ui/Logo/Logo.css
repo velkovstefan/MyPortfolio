@@ -1,0 +1,38 @@
+@keyframes flow {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  100% {
+    background-position: 100% 50%;
+  }
+}
+
+.ascii-logo {
+  background: linear-gradient(to right, #ff4e50, #f9d423, #ff4e50, #f9d423);
+  background-size: 300% 300%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: flow 6s ease infinite;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 0.5rem;
+  line-height: 1;
+  font-weight: bold;
+  letter-spacing: 0px;
+  cursor: pointer;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+@media (max-width:500px) {
+  .ascii-logo {
+    font-size: 0.3rem;
+  }
+}
+
+@media (max-width:300px) {
+  .ascii-logo {
+    font-size: 0.2rem;
+  }
+}

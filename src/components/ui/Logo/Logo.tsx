@@ -1,4 +1,5 @@
 import { useState, useEffect, useCallback } from 'react';
+import './Logo.css';
 
 const FlowingEncryptedLogo = () => {
   const originalLogo = `
@@ -6,8 +7,8 @@ const FlowingEncryptedLogo = () => {
  ██╔════╝ ╚══██╔══╝ ██╔════╝ ██╔════╝ ██╔══██╗ ████╗  ██║     ██║   ██║ ██╔════╝ ██║      ██║ ██╔╝ ██╔═══██╗ ██║   ██║
  ███████╗    ██║    █████╗   █████╗   ███████║ ██╔██╗ ██║     ██║   ██║ █████╗   ██║      █████╔╝  ██║   ██║ ██║   ██║
  ╚════██║    ██║    ██╔══╝   ██╔══╝   ██╔══██║ ██║╚██╗██║     ╚██╗ ██╔╝ ██╔══╝   ██║      ██╔═██╗  ██║   ██║ ╚██╗ ██╔╝
- ███████║    ██║    ███████╗ ██║      ██║  ██║ ██║ ╚████║      ╚████╔╝  ███████╗ ███████╗ ██║  ██╗ ╚██████╔╝  ╚████╔╝ 
- ╚══════╝    ╚═╝    ╚══════╝ ╚═╝      ╚═╝  ╚═╝ ╚═╝  ╚═══╝       ╚═══╝   ╚══════╝ ╚══════╝ ╚═╝  ╚═╝  ╚═════╝    ╚═══╝  
+ ███████║    ██║    ███████╗ ██║      ██║  ██║ ██║ ╚████║      ╚████╔╝  ███████╗ ███████╗ ██║  ██╗ ╚██████╔╝  ╚████╔╝
+ ╚══════╝    ╚═╝    ╚══════╝ ╚═╝      ╚═╝  ╚═╝ ╚═╝  ╚═══╝       ╚═══╝   ╚══════╝ ╚══════╝ ╚═╝  ╚═╝  ╚═════╝    ╚═══╝
 `;
 
   const [displayLogo, setDisplayLogo] = useState(originalLogo);
@@ -65,32 +66,7 @@ const FlowingEncryptedLogo = () => {
   };
 
   return (
-    <div className="flex items-center justify-center p-10 bg-transparent">
-      <style>
-        {`
-          @keyframes flow {
-            0%   { background-position: 0% 50%; }
-            100% { background-position: 100% 50%; }
-          }
-          .ascii-logo {
-            background: linear-gradient(to right, #ff4e50, #f9d423, #ff4e50, #f9d423);
-            background-size: 300% 300%;
-            -webkit-background-clip: text;
-            background-clip: text;
-            -webkit-text-fill-color: transparent;
-            animation: flow 6s ease infinite;
-            font-family: 'Courier New', Courier, monospace;
-            font-size: 0.5rem;
-            line-height: 1;
-            font-weight: bold;
-            letter-spacing: 0px;
-            cursor: pointer;
-            -webkit-text-size-adjust: 100%;
-            text-size-adjust: 100%;
-          }
-        `}
-      </style>
-
+    <div className="flex items-center justify-center p-10 mt-0  md:mt-[4rem] lg:mt-[8rem] bg-transparent fade-up">
       <div
         className="ascii-logo"
         aria-label="LOGO"
