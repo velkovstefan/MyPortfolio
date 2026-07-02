@@ -20,7 +20,7 @@ Welcome to the repository for my personal portfolio website! This project showca
 
 * **Frontend Core:** React, TypeScript
 * **Build Tool & Bundler:** Vite
-* **Styling:** Tailwind CSS *(or your chosen styling tool)*
+* **Styling:** Tailwind CSS 
 * **CI/CD & Hosting:** GitHub Actions & GitHub Pages
 
 
